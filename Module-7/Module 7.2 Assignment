@@ -1,0 +1,19 @@
+For this assignment, you have two tasks. The first is to write a Python program that produces the required results. Document those results, then add unit tests to test whether functions work as required.
+
+Create (if you haven't already) a directory in CSD-325 named module-7.
+Open a Word document and put your name and assignment number at the top.
+Read through Chapter 11 in the Python Crash Course text. Link on how to access is in the 'Select Text from Library.pdf' file listed in the Reading area.
+Create a program that includes the following:
+Write a function that accepts two parameters: a city name and a country name. The function should return a single string of the form City, Country, such as Santiago, Chile. Store the function in a file named city_functions.py. In the same file, call the function at least three times using a City, Country values. Execute city_functions.py and take a screenshot of the result. Paste that screenshot into your Word document.
+Create a file called test_cities.py that tests the function you just wrote (remember that you need to import unittest and the function you want to test). Write a method called test_city_country() to verify that calling your function with values such as Santiago and Chile results in the correct string. Run test_cities.py, and make sure test_city_country() passes. When it passes, take a screenshot of the result and paste in into your Word document.
+Modify your city_country function in city_functions.py so it requires a third parameter, population. It should now return a single string of the form City, Country - population xxx, such as Santiago, Chile - population 5000000.
+Run test_cities.py again. It should fail. Take a screenshot of the result and paste into your Word document.
+Now modify your city_country function in city_functions.py so that the population parameter is optional.
+Run test_cities.py again. It should pass. Take a screenshot of the result and paste into your Word document.
+Modify your city_country function in city_functions.py so it requires a fourth parameter, language. It should now return a single string of the form City, Country - population xxx, Language, such as Santiago, Chile - population 5000000, Spanish.
+Run test_cities.py again. It should fail. Take a screenshot of the result and paste into your Word document.
+Now modify your city_country function in city_functions.py so that the language argument is optional.
+Run test_cities.py again. It should pass. Take a screenshot of the result and paste into your Word document.
+Run city_functions.py. Call the function at least three times using a City, Country for one, City, Country, Population for the next and City, Country, Population, Language for the last. Execute city_functions.py and take a screenshot of the result. Paste that screenshot into your Word document.
+Save your Word document to your module-7 directory.
+Save the city_functions.py and final test_cities.py to your module-7 directory.
